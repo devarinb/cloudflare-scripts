@@ -30,9 +30,7 @@ This script allows you to add multiple DNS records to a Cloudflare zone.
 
 To run the script, open a terminal or command prompt and navigate to the cloned directory. Then, execute the following command:
 
-```shell
-
-python bulk-add-record.py
+`python bulk-add-record.py`
 
 The script will prompt for the number of DNS records to add and the details of each record (type, name, content, and whether to enable Cloudflare proxy). After providing the required information, the script will add the DNS records to the Cloudflare zone.
 
@@ -47,11 +45,7 @@ This script allows you to delete all DNS records from a Cloudflare zone.
 
 To run the script, open a terminal or command prompt and navigate to the cloned directory. Then, execute the following command:
 
-
-```
-python delete-all-record.py
-```
-
+`python delete-all-record.py`
 
 The script will prompt for zone id, email and API key before deleting all DNS records in the Cloudflare zone. Please exercise caution, as this action is irreversible.
 
