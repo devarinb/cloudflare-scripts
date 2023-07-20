@@ -22,7 +22,7 @@ Follow the instructions below to run and use the scripts:
 
 2. Navigate to the cloned directory: `cd cloudflare-scripts`.
 
-## Script: bulk-add-record.py
+## Script: `bulk-add-record.py`
 
 This script allows you to add multiple DNS records to a Cloudflare zone.
 
