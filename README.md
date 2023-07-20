@@ -37,7 +37,7 @@ The script will prompt for the number of DNS records to add and the details of e
 Please exercise caution when using this script, as it can modify DNS records in your Cloudflare zone. Make sure to double-check and backup any essential records before running the script.
 
 
-## **Script: delete-all-record.py**
+## Script: `delete-all-record.py`
 
 This script allows you to delete all DNS records from a Cloudflare zone.
 
