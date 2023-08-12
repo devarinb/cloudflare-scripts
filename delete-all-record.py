@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 def bulk_delete_dns_records(zone_id, email, api_key):
     base_url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"
     headers = {
